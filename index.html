@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+	<head>
+		<meta charset="utf-8">
+        <title>Secret Shop YYC</title>
+        <meta name="description" content="Calgary Pop Up Shop">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Vox Digital">
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/style-map-variant.css" />
+				<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<!-- Map overlay and stars -->
+		<div class="global-overlay">
+			<div class="overlay skew-part">
+				<div id='stars'></div>
+				<div id='stars2'></div>
+				<div id='stars3'></div>
+			</div>
+		</div>
+		<!-- Map overlay and stars end -->
+
+		<!-- START - Home/Left Part -->
+		<section id="left-side">
+			<!-- Logo -->
+			<img src="img/logo.png" alt="Secret Shop YYC Logo" class="brand-logo" />
+
+			<div class="content">
+
+				<h1 class="text-intro opacity-0">Next Pop-Up :
+					<div id="getting-started"></div>
+				</h1>
+				<br>
+				<br>
+
+				<h2 class="text-intro opacity-0">Secret Shop YYC is a platform for local designers and vendors to showcase their clothing.</h2>
+				<nav>
+					<ul>
+						<!--<li>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">View Vendors</a>
+						</li>-->
+						<li>
+							<a href="https://www.instagram.com/secretshopyyc" class="light-btn text-intro opacity-0">View Instagram</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+		<!-- END - Home/Left Part -->
+
+		<!-- MAP -->
+		<!-- <div class="map-container opacity-0 animated-middle">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40136.99360921353!2d-114.12105874626718!3d51.04270804059469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe391ec2557%3A0x54aa755c603b0411!2sRamada+Plaza+by+Wyndham+Calgary+Downtown!5e0!3m2!1sen!2sca!4v1544488825543" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+
+    <!-- Map Disabled -->
+		<div class="map-container opacity-0 animated-middle">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321303.3268099956!2d-114.35433259613221!3d51.012781998318424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C+AB!5e0!3m2!1sen!2sca!4v1554762910369!5m2!1sen!2sca" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<!-- START - More Informations/Right Part -->
+
+		<style>
+		#right-side {
+			display: none !important;
+		}
+		</style>
+		
+		<section id="right-side" class="hide-right">
+
+			<div class="content">
+
+				<h3 class="color:black;">Vendors</h3>
+
+
+
+				<div class="photo-line">
+
+					<div class="my-gallery row" itemscope itemtype="http://schema.org/ImageGallery">
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
+
+
+								<!-- Your picture -->
+								<img style="background-color:white;" src="img/jimmys-fresh-fruit.png" itemprop="thumbnail" alt="Jimmys Fresh Fruit Logo" class="img-responsive" />
+
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Jimmys Fresh Fruit</h4>
+
+									<span class="border"></span>
+
+									<p>Jimmy's fresh fruit is a curated collection of  men's streetwear, vintage and high fashion garments. Getting people fresh one fruit at a time 🍏🍋🍎</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+
+								<!-- Your picture -->
+								<img style="background-color:white;" src="img/organicvhs.png" itemprop="thumbnail" alt="OrganicVHS Logo" class="img-responsive" />
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>OrganicVHS</h4>
+
+									<span class="border"></span>
+
+									<p>Clothing collector based in YYC. Focused on bringing back nostalgic styles and supplying a versatile selection of Designer, Streetwear, Vintage & more. </p></p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
+
+
+								<!-- Your picture -->
+								<img src="img/tamsquatch.png" itemprop="thumbnail" alt="Tamsquatch Logo" class="img-responsive" />
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Tamsquatch</h4>
+
+									<span class="border"></span>
+
+									<p>Whether you like it or not, people are judging you by the fabrics draped over your skin. I choose my clothes based on the cultures that have built me as an individual. I pay tribute to what inspires me by allowing my clothing to be an extension of myself. Dressing for conformity just doesn’t excite me. Dressing should feel fun and natural. It’s my mission to challenge people to understand themselves and to help them dress in ways that help them feel comfortable and powerful. I’m here to share what I do best.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+
+
+								<!-- Your picture -->
+								<img src="img/recycled-vintage.jpg" itemprop="thumbnail" alt="Recycled Vintage Logo" class="img-responsive" />
+
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Recycled Vintage</h4>
+
+									<span class="border"></span>
+
+									<p>Nowadays it seems that shopping vintage is the only way to stand out in the modern world. We provide a selection of curated vintage goods at affordable prices to help you do exactly that. Have a unique item that you want to sell? See something that you like on our page? We offer a buy sell trade platform to help you get the piece you really want! </p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
+								<!-- Your picture -->
+								<img src="img/curated-by-cool.jpg" itemprop="thumbnail" alt="Vox Digital Logo" class="img-responsive" />
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Curated By Cool</h4>
+
+									<span class="border"></span>
+
+									<p>Curatedbycool combines the exclusivity of vintage and one off pieces to create unique, ready to wear clothing. Run by Colin and Olivia, it was started as a way to express our creativity and passion for clothing.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+
+								<!-- Your picture -->
+								<img src="img/nayastyle.jpg" itemprop="thumbnail" alt="Naya Style Logo" class="img-responsive" />
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Naya's Style</h4>
+
+									<span class="border"></span>
+
+									<p>Naya’s Style is everything 90s/80s. Colourful, patterns and style alike. It’s all about statement pieces with me. I guarantee you’ll find a item like you’ve never seen before. With; Femininity and masculinity combined. Welcome to Naya's Style</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
+
+							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
+
+								<!-- Your picture -->
+								<img src="img/ragtees.jpg" itemprop="thumbnail" alt="Rag Tees Logo" class="img-responsive" />
+
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Rag Tees</h4>
+
+									<span class="border"></span>
+
+									<p>Vintage Tee's, Worn To Perfection.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
+
+
+								<!-- Your picture -->
+								<img src="img/rewerked.jpg" itemprop="thumbnail" alt="Naya Style Logo" class="img-responsive" />
+
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Rewerked</h4>
+
+									<span class="border"></span>
+
+									<p>Aspiring Fashion Designer Kieran Ridgedale works to transform Streetwear / Hype / Vintage into wearable art. Creating unique one of one clothing pieces. He calls it "Rewerked".</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+
+								<!-- Your picture -->
+								<img src="img/kindred.jpg" itemprop="thumbnail" alt="Naya Style Logo" class="img-responsive" />
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Kindred Thrift</h4>
+
+									<span class="border"></span>
+
+									<p>Classic and contemporary thrift finds. We gravitate toward unique pieces with the best fits, great material and high quality items. Picked and curated by Tessa and Rita, two best friends that were finding too many things to be left behind at the thrift store.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+						<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6">
+
+							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
+
+
+								<!-- Your picture -->
+								<img src="img/eccentric.jpg" itemprop="thumbnail" alt="Eccentric Logo" class="img-responsive" />
+
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Eccentric 403</h4>
+
+									<span class="border"></span>
+
+									<p>Vintage garments from Denton Meyer personal collection. Hand picked for everyone who loves it just as much as I do. Items include Denim, T-shirts, Jackets, and many other items.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+
+
+
+
+
+						<br>
+						<br>
+					</div>
+						<h3 class="color:black;">Sponsors</h3>
+<div class="my-gallery row" itemscope itemtype="http://schema.org/ImageGallery">
+
+							<!-- Item -->
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
+
+							<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
+							<a style="background-color:white; padding-top: 15px;" class="box-picture" href="https://www.voxdigital.ca" itemprop="contentUrl" data-size="1920x1280">
+
+								<!-- Your picture -->
+								<img src="img/vox-digital.png" itemprop="thumbnail" alt="Vox Digital Logo" class="img-responsive" />
+								<p>Click</p>
+
+							</a>
+
+							<!-- Picture's description below this one -->
+							<figcaption itemprop="caption description">
+
+								<div class="photo-details">
+
+									<h4>Vox Digital</h4>
+
+									<span class="border"></span>
+
+									<p>Vox Digital is a Calgary based marketing and web design agency that provides you and your business with the tools you need to succeed online.</p>
+
+								</div>
+
+							</figcaption>
+
+						</figure>
+
+					</div>
+
+				</div>
+
+
+</div>
+<span class="separator"></span>
+
+			</div>
+			<!-- /. Content -->
+
+			<footer>
+
+				<p style="color: black;font-weight: bold; z-index:;">Website Design and <br>Digital Marketing by <a style="color:black!important;font-weight:bold!important;"href="https://www.voxdigital.ca">Vox Digital</a></p>
+			</footer>
+
+		</section>
+		<!-- START - More Informations/Right Part -->
+
+		<!-- Button Cross to close the More Informations/Right Part -->
+		<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
+
+		<!-- START - Newsletter Popup -->
+		<div id="somedialog" class="dialog">
+
+			<div class="dialog__overlay"></div>
+
+			<div class="dialog__content">
+
+				<div class="dialog-inner">
+
+					<h4>Shhhh.</h4>
+
+					<p>Signing up to our newsletter gives you <strong>exclusive access to information regarding future popups.</strong></p>
+
+					<!-- Newsletter Form -->
+					<div id="subscribe">
+
+		                <form action="php/notify-me.php" id="notifyMe" method="POST">
+
+		                    <div class="form-group">
+
+		                        <div class="controls">
+
+		                        	<!-- Field  -->
+		                        	<input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" />
+
+		                        	<!-- Spinner top left during the submission -->
+		                        	<i class="fa fa-spinner opacity-0"></i>
+
+		                            <!-- Button -->
+		                            <button class="btn btn-lg submit">Get notified</button>
+
+		                            <div class="clear"></div>
+
+		                        </div>
+
+		                    </div>
+
+		                </form>
+
+						<!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
+						<div class="block-message">
+
+							<div class="message">
+
+								<p class="notify-valid"></p>
+
+							</div>
+
+						</div>
+
+        			</div>
+        			<!-- /. Newsletter Form -->
+
+				</div>
+				<!-- /. dialog-inner -->
+
+				<!-- Button Cross to close the Newsletter Popup -->
+				<button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
+
+			</div>
+			<!-- /. dialog__content -->
+
+		</div>
+		<!-- END - Newsletter Popup -->
+
+		<!-- Root element of PhotoSwipe, the gallery. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		    <!-- Background of PhotoSwipe.
+	        	It's a separate element as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+
+		        <!-- Container that holds slides.
+		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+		            Don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+
+		            <div class="pswp__top-bar">
+
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+
+		                <div class="pswp__counter"></div>
+
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+		                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader--active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+
+		            </div>
+
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div>
+		            </div>
+
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+
+		        </div>
+
+		    </div>
+
+		</div>
+		<!-- /. Root element of PhotoSwipe. Must have class pswp. -->
+
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- PhotoSwipe Core JS file -->
+	<script src="js/velocity.min.js"></script>
+
+	<!-- PhotoSwipe UI JS file -->
+	<script src="js/velocity.ui.min.js"></script>
+
+
+
+
+	<!-- Popup Newsletter Form -->
+	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
+
+	<!-- PhotoSwipe Core JS file -->
+	<script src="js/photoswipe.js"></script>
+
+	<!-- PhotoSwipe UI JS file -->
+	<script src="js/photoswipe-ui-default.js"></script>
+
+	<!-- Countdown plugin -->
+	<script src="js/jquery.countdown.js"></script>
+
+	<script>
+	$("#getting-started")
+		// Year/Month/Day Hour:Minute:Second
+		.countdown("2019/04/26 19:00:00", function(event) {
+			$(this).text(
+				event.strftime('%D Days %Hh %Mm %Ss')
+			);
+	});
+	</script>
+	<script src="js/main.js"></script>
+
+	</body>
+
+</html>
