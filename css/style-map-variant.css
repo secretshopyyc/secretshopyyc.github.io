@@ -31,8 +31,8 @@
 @import url(jquery.mCustomScrollbar.css);
 @import url(vegas.css);
 /* Google Fonts */
-@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
 /*
 * http://meyerweb.com/eric/tools/css/reset/ 
 * v2.0 | 20110126
@@ -491,7 +491,8 @@ sup {
   top: 0;
   left: -50%;
   z-index: 2;
-  background: rgba(32, 35, 45, 0.8);
+  /* OLD background: rgba(32, 35, 45, 0.8); */
+  background: black;
   width: 100%;
   height: 100%;
   -webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
